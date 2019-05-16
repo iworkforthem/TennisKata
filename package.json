@@ -1,0 +1,22 @@
+{
+  "name": "tenniskata",
+  "version": "1.0.0",
+  "description": "This Kata is about implementing the scoring of a simple tennis game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collectCoverage"
+  },
+  "author": "Wai Mun <iworkforthem@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.4",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
